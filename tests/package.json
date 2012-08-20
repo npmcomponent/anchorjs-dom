@@ -1,0 +1,11 @@
+{
+  "amd": {
+    "baseUrl": "js"
+  },
+  "volo": {
+    "dependencies": {
+      "class": "github:anchorjs/class/master",
+      "selector": "github:anchorjs/selector/master"
+    }
+  }
+}
