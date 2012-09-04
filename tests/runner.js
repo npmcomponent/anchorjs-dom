@@ -15,11 +15,7 @@ require(['require',
 function(require, _mocha, _chai) {
   mocha.setup('bdd');
   
-  require(['test.dom',
-           'test.dom.collection',
-           'test.dom.manipulation',
-           'test.dom.metrics',
-           'test.dom.style'],
+  require(['suite'],
   function() {
     mocha.run();
   });
