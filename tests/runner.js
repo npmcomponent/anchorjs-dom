@@ -15,7 +15,7 @@ require(['require',
 function(require, _mocha, _chai) {
   mocha.setup('bdd');
   
-  require(['suite'],
+  require(['./suite'],
   function() {
     mocha.run();
   });
