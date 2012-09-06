@@ -1,8 +1,8 @@
 require.config({
   paths:{
     'dom': '../../',
-    'class': '../vendor/class',
-    'selector': '../vendor/selector',
+    'class': '../../vendor/class',
+    'selector': '../../vendor/selector',
     'mocha': '../vendor/mocha/mocha',
     'chai': '../vendor/chai/chai',
     'phantomjs-mocha': '../vendor/phantomjs-mocha'
