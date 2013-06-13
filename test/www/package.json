@@ -1,0 +1,13 @@
+{
+  "volo": {
+    "baseUrl": "js/lib",
+    "dependencies": {
+      "require": "github:jrburke/requirejs/2.x.x",
+      "class": "git://github.com/anchorjs/class.git",
+      "selector": "git://github.com/anchorjs/selector.git",
+      "mocha": "github:visionmedia/mocha/1.x.x",
+      "chai": "github:chaijs/chai/1.x.x",
+      "mocha-results": "github:jaredhanson/mocha-results/1.x.x"
+    }
+  }
+}
