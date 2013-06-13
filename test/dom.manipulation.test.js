@@ -1,7 +1,5 @@
-define(['dom/main',
-        'chai'],
-function($, chai) {
-  var expect = chai.expect;
+define(['dom/main'],
+function($) {
 
   describe("dom manipulation", function() {
     

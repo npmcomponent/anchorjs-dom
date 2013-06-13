@@ -1,7 +1,5 @@
-define(['dom/lib/collection',
-        'chai'],
-function(Collection, chai) {
-  var expect = chai.expect;
+define(['dom/lib/collection'],
+function(Collection) {
 
   describe("Collection", function() {
     

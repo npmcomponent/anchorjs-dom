@@ -1,8 +1,6 @@
 define(['dom/main',
-        'dom/lib/collection',
-        'chai'],
-function($, Collection, chai) {
-  var expect = chai.expect;
+        'dom/lib/collection'],
+function($, Collection) {
 
   describe("dom", function() {
     
