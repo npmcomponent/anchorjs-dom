@@ -1,0 +1,21 @@
+{
+  "name": "dom",
+  "version": "0.0.0",
+  "description": "DOM traversal, manipulation, and more.",
+  "repo": "anchorjs/dom",
+  "main": "main.js",
+  "scripts": [
+    "main.js",
+    "lib/collection.js",
+    "lib/events.js",
+    "lib/manipulation.js",
+    "lib/metrics.js",
+    "lib/style.js",
+    "lib/traversal.js"
+  ],
+  "dependencies": {
+    "anchorjs/class": "*",
+    "anchorjs/selector": "*"
+  },
+  "license": "MIT"
+}
