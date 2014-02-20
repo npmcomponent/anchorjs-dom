@@ -1,46 +1,11 @@
 {
-  "name": "dom",
-  "version": "0.0.0",
+  "name": "anchorjs-dom",
   "description": "DOM traversal, manipulation, and more.",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/anchorjs/dom.git"
-  },
-  "bugs": {
-    "url": "http://github.com/anchorjs/dom/issues"
-  },
-  "author": {
-    "name": "Jared Hanson",
-    "email": "jaredhanson@gmail.com",
-    "url": "http://www.jaredhanson.net/"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ],
-  "main": "main",
+  "version": "0.0.0",
+  "main": "main.js",
   "dependencies": {
-    "class": "git://github.com/anchorjs/class.git",
-    "selector": "git://github.com/anchorjs/selector.git"
+    "anchorjs-class": "git://github.com/npmcomponent/anchorjs-class.git",
+    "anchorjs-selector": "git://github.com/npmcomponent/anchorjs-selector.git"
   },
-  "devDependencies": {
-    "express": "3.x.x",
-    "term-canvas": "0.0.x",
-    "mocha-phantomjs": "2.x.x",
-    "mocha-cloud": "0.1.x",
-    "mocha-cloud-grid-view": "0.0.x",
-    "component-amd": "0.1.x",
-    "deamdify": "0.1.x"
-  },
-  "browserify": {
-    "transform": "deamdify"
-  },
-  "volo": {
-    "dependencies": {
-      "class": "github:anchorjs/class/master",
-      "selector": "github:anchorjs/selector/master"
-    }
-  }
+  "license": "MIT"
 }
